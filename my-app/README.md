@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Tech Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Tech Challenge project! This project is designed to demonstrate a React Single Page Application integrating Auth0 for authentication.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+Follow these steps to get the project up and running on your local machine.
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before you begin, ensure you have Node.js(https://nodejs.org/) installed on your machine. This project has been tested on a Windows 11 PC.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
 
-### `npm test`
+1. **Clone the Repository**
+   
+   You can clone the project from GitHub by clicking on the "<> Code" green button at https://github.com/rob-lopez-v/tech-challenge and selecting your preferred method (e.g., "Download Zip").
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Navigate to the Project Directory**
+   
+   Once the project is cloned or downloaded, open your terminal and navigate to the `/my-app` directory within the project.
 
-### `npm run build`
+   ```bash
+   cd path/to/tech-challenge/my-app
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Install Dependencies**
+   
+   Run the following command to install the necessary dependencies, including the Auth0 React SDK:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install @auth0/auth0-react
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the Project
 
-### `npm run eject`
+After installing the dependencies, you can start the project in development mode:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will launch the project in your default web browser. You can view it at: http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+After launching the project, you can interact with the Single Page Application, which includes features secured by Auth0 authentication. It implements the following:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ - Signup/login with email/password and also with Google.
+ - Implements Account Linkin to prevent duplicate accounts.
+ - Displays an error if a user tries to login with an account where the email address remains unverified.
+ - Customises the NEw Universal Login by adding a Cruise ship logo, Cruise ship background and customised title & description.
+ 
+Thanks for reading!
