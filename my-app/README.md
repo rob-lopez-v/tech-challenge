@@ -47,7 +47,7 @@ This will launch the project in your default web browser. You can view it at: ht
 After launching the project, you can interact with the Single Page Application, which includes features secured by Auth0 authentication. It implements the following:
 
  - Signup/login with email/password and also with Google.
- - Implements Account Linkin to prevent duplicate accounts.
+ - Implements Account Linking to prevent duplicate accounts.
  - Displays an error if a user tries to login with an account where the email address remains unverified.
  - Customises the NEw Universal Login by adding a Cruise ship logo, Cruise ship background and customised title & description.
  
